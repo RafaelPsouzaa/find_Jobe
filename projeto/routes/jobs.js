@@ -7,6 +7,11 @@ router.get('/test', (req, res) => {
     res.send('deu certo');
 });
 
+// recebendo dados do formulario add
+router.get('/add',(req,res)=>{
+    res.render('add');
+});
+
 //add job via post 
    router.post('/add', (req, res) => {
 

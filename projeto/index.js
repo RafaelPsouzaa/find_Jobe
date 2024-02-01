@@ -4,7 +4,7 @@ const app          = express();
 const path         = require('path');
 const db           = require('./db/connection');
 const bodyParser   = require('body-parser');
-const Job = require('./models/job');
+const Job          = require('./models/job');
 
 const PORT = 3000;
 
