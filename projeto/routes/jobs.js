@@ -14,8 +14,8 @@ router.get('/view/:id',(req,res) =>Job.findOne({
     res.render('view',{
         job
     });
-}).catch(err => console.log(err));
-) 
+}).catch(err => console.log(err)));
+
 
 
 // recebendo dados do formulario add
